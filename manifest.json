@@ -1,0 +1,10 @@
+{
+    "id": "doc-converter",
+    "name": "Doc Converter",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "description": "Auto convert .docx .xlsx .doc .pptx files to Markdown with sidebar preview",
+    "author": "kevin7799k-afk",
+    "authorUrl": "https://github.com/kevin7799k-afk",
+    "isDesktopOnly": true
+}
