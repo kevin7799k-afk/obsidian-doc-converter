@@ -1,0 +1,49 @@
+/* Doc Converter Plugin Styles */
+
+.doc-converter-preview {
+      padding: 8px 0;
+      line-height: 1.7;
+}
+
+.doc-converter-preview table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 12px 0;
+      font-size: 13px;
+      overflow-x: auto;
+      display: block;
+}
+
+.doc-converter-preview th,
+.doc-converter-preview td {
+      border: 1px solid var(--background-modifier-border);
+      padding: 6px 10px;
+      text-align: left;
+      white-space: nowrap;
+}
+
+.doc-converter-preview th {
+      background: var(--background-secondary);
+      font-weight: 600;
+      color: var(--text-normal);
+}
+
+.doc-converter-preview tr:nth-child(even) td {
+      background: var(--background-primary-alt);
+}
+
+.doc-converter-preview h1,
+.doc-converter-preview h2,
+.doc-converter-preview h3 {
+      margin-top: 20px;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.doc-converter-preview blockquote {
+      border-left: 3px solid var(--color-orange);
+      padding-left: 12px;
+      color: var(--text-muted);
+      margin: 8px 0;
+}
